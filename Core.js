@@ -213,7 +213,7 @@ module.exports = async (Atlas, m, commands, chatUpdate) => {
         `*${budy.replace(
           prefix,
           ""
-        )}* - Command not found or plug-in not installed !\n\nIf you want to see the list of commands, type:    *_${prefix}help_*\n\nOr type:  *_${prefix}pluginlist_* to see installable plug-in list.`
+        )}* - Command not found !\n\nIf you want to see the list of commands, type:    *_${prefix}help_*`
       );
     }
 
@@ -299,17 +299,7 @@ module.exports = async (Atlas, m, commands, chatUpdate) => {
 
     // ------------------------------------------------------------------------------------------------------- //
 
-    const pad = (s) => (s < 10 ? "0" : "") + s;
-    const formatTime = (seconds) => {
-      const hours = Math.floor(seconds / (60 * 60));
-      const minutes = Math.floor((seconds % (60 * 60)) / 60);
-      const secs = Math.floor(seconds % 60);
-      return (time = `${pad(hours)}:${pad(minutes)}:${pad(secs)}`);
-    };
-    const uptime = () => formatTime(process.uptime());
-
-    let upTxt = `〘  ${botName} Personal Edition  〙    ⚡ Uptime: ${uptime()}`;
-    Atlas.setStatus(upTxt);
+    
 
     cmd.start(Atlas, m, {
       name: "Atlas",
