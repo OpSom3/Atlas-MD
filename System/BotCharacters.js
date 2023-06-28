@@ -31,7 +31,7 @@
 
 
 /* ---Added Anime Character list---  /
- 0 --- Atlas MD
+ 0 --- Hinata
  1 --- Power
  2 --- Makima
  3 --- Denji
@@ -39,7 +39,7 @@
  5 --- Chika
  6 --- Miku
  7 --- Marin Kitagawa
- 8 --- Ayanokoji
+ 8 --- Nami
  9 --- Ruka
 10 --- Mizuhara
 11 --- Rem
@@ -65,14 +65,14 @@ Don't forget to change "charlist.js" and "setchar.js" inside "Plugins\moderator.
 
 
 global.charID0 = {
-    botName : "Atlas",
-    botVideo : "https://graph.org/file/e3b2ee218b98b8679bf98.mp4",
-    botImage1 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage2 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage3 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage4 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage5 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage6 : "https://i.imgur.com/MClOeqe.jpeg",
+    botName : "Hinata",
+    botVideo : "https://graph.org/file/22dbb1a5926bacc064cb6.mp4",
+    botImage1 : "https://i.imgur.com/5EUMFt2.jpg",
+    botImage2 : "https://i.imgur.com/VhpMdxv.jpg",
+    botImage3 : "https://i.imgur.com/BtWBySB.jpg",
+    botImage4 : "https://i.imgur.com/B69bpbU.jpg",
+    botImage5 : "https://i.pinimg.com/236x/c5/d4/89/c5d48918e3293f11abb999fee49e4040.jpg",
+    botImage6 : "https://i.pinimg.com/736x/f6/85/14/f6851417cb6d7000f08fa134b8b7a828.jpg",
 }
 
 global.charID1 = {
@@ -153,14 +153,14 @@ global.charID7 = {
 }
 
 global.charID8 = {
-  botName : "Ayanokoji",
-  botVideo : "https://graph.org/file/ae503b0700b345816f4d3.mp4",
-  botImage1 : "https://wallpapers.com/images/file/kiyotaka-ayanokoji-in-pink-qs33qgqm79ccsq7n.jpg",
-  botImage2 : "https://wallpapercave.com/wp/wp6530733.jpg",
-  botImage3 : "https://wallpapercave.com/wp/wp4781992.jpg",
-  botImage4 : "https://images5.alphacoders.com/106/1065278.jpg",
-  botImage5 : "https://e1.pxfuel.com/desktop-wallpaper/986/75/desktop-wallpaper-kiyotaka-ayanokoji-1920x1080-ayanokoji.jpg",
-  botImage6 : "https://wallpapercave.com/wp/wp6239118.jpg",
+  botName : "Nami",
+  botVideo : "https://graph.org/file/5b5119582dda25631c6af.mp4",
+  botImage1 : "https://w0.peakpx.com/wallpaper/154/23/HD-wallpaper-nami-anime-one-piece-manga.jpg",
+  botImage2 : "https://w0.peakpx.com/wallpaper/404/142/HD-wallpaper-nami-naruto-luffy-zoro-one-piece-sanji-anime.jpg",
+  botImage3 : "https://w0.peakpx.com/wallpaper/855/522/HD-wallpaper-nami-anime-one-piece-manga.jpg",
+  botImage4 : "https://w0.peakpx.com/wallpaper/813/848/HD-wallpaper-nami-one-piece.jpg",
+  botImage5 : "https://w0.peakpx.com/wallpaper/246/955/HD-wallpaper-nami-anime-manga-one-piece.jpg",
+  botImage6 : "https://w0.peakpx.com/wallpaper/280/852/HD-wallpaper-nami-anime-nami-san-navigator-one-piece-strawhats.jpg",
 }
 
 global.charID9 = {
