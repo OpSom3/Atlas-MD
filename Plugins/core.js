@@ -41,14 +41,14 @@ module.exports = {
       case "support":
       case "supportgc":
         await doReact("🔰");
-        let txt2 = `              🧣 *Support Group* 🧣\n\n*${botName}* is an open source project, and we are always happy to help you.\n\n*Link:* ${suppL}\n\n*Note:* Please don't spam in the group, and don't message *Admins directly* without permission. Ask for help inside *Group*.\n\n*Thanks for using Atlas.*`;
+        let txt2 = `🧣 *Owner Group* 🧣\n\n*${botName}* is an open source project, and we are always happy to help you.\n\n*Link:* chat.whatsapp.com/DF3fnIHbFxWEY3bqUAf7Is\n\n*Note:* Please don't spam in the group, and don't message *Admins directly* without permission. Ask for help inside *Group*.\n\n*Thanks for using ${botName}*`;
         Atlas.sendMessage(m.from, { image: pic, caption: txt2 }, { quoted: m });
         break;
 
       case "help":
       case "h":
       case "menu":
-        await doReact("☃️");
+        await doReact("📁");
         await Atlas.sendPresenceUpdate("composing", m.from);
         function readUniqueCommands(dirPath) {
           const allCommands = [];
@@ -98,7 +98,20 @@ module.exports = {
 
         const allCommands = readUniqueCommands(pluginsDir);
         const formattedCommands = formatCommands(allCommands);
-        var helpText = `\nKonnichiwa *${pushName}* Senpai,\n\nI am *${botName}*, a WhatsApp bot built to take your boring WhatsApp experience into next level.\n\n*🔖 My Prefix is:*  ${prefix}\n\n${formattedCommands}\n\n\n*©️ Team ATLAS- 2023*`;
+        var helpText = `\nKonnichiwa *${pushName}* Senpai,\n\nI am *${botName}*, a WhatsApp bot built to take your boring WhatsApp experience into next level.\n\n*🔖 My Prefix is:*  *${prefix}*
+
+🎗 *Here's My List Of Cammands:*\n\n${formattedCommands}\n\n\n
+𝟶ཻུ۪۪ꦽꦼ̷⸙‹•══════════════ 〄
+│
+│ *🔰  ${botName}  🔰*
+│ _Powered By:_ *Ɲᴇꪎꪎᴇʀ  ꢺᴀϻᴀ 𓆩×͜×𓆪ꪾ*
+│
+│🎀 To use any of these commands type 
+│ " *${prefix}Command name* ".
+│
+│🏮 To get Owner number " *${prefix}Mods* ".
+│
+╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙`;
         await Atlas.sendMessage(
           m.from,
           { video: { url: botVideo }, gifPlayback: true, caption: helpText },
